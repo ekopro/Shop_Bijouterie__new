@@ -1,0 +1,60 @@
+
+
+.biography {
+	background-image: url('https://previews.123rf.com/images/jetfoto/jetfoto1308/jetfoto130800004/21751501-The-contour-drawing-violet-roses-on-white-background-Watercolor--Stock-Photo.jpg');
+	background-repeat: repeat-y;
+	-webkit-background-size: 300px;
+	background-size: 300px;
+	min-height: 300px;
+	opacity: 1;
+	
+}
+.biography__wrapper {
+	width: 1200px;
+	min-height: 350px;
+	margin: auto;
+	z-index: 2;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+		
+}
+.biography__topPart {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.biography__photo {
+	background-image: url('../assets/images/Natasha.jpg');
+	-webkit-background-size: contain;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 200px;
+	min-width: 200px;
+	height: 300px;
+	float: left;
+	margin: 10px;
+	border-radius: 5px;
+}
+.biography__header {
+	float: right;
+	display: inline-block;
+	margin: 20px;
+}
+.biography__text {
+	font-size: 25px;
+}
+.biography__image {
+	width: 600px;
+	height: 450px;
+	margin: auto;
+	z-index: 3;
+}

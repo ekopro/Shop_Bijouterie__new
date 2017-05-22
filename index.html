@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bijouterie</title>
+	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Lobster">
+    <script src="https://use.fontawesome.com/7bcb675de3.js"></script>  
+
+</head>
+<body >
+
+	<header class="header">
+		<div class="wrapperForHeader">
+			<div class="headerTitle">экслюзивные украшения ручной работы</div>
+
+			<div class="headerSearch">
+				<input class="inputSearch" type="text" placeholder="Введите запрос">
+				<i class="fa fa-search fa-2x" aria-hidden="true"></i>
+			</div>
+
+
+			<div class="headerCart">
+				<i class="fa fa-shopping-cart fa-4x" aria-hidden="true"></i>
+			</div>
+		</div>
+	</header>
+
+	<div class="mainbody">
+		<section class="leftSection">
+
+			<div class="aboutMaster">
+				<div lang="ru" class="aboutMaster__text">О мастере:</div>
+				<div class="aboutMaster__photo"></div>
+				<a href="aboutMaster.html" class="aboutMaster__ref">Смирнова Наталья</a>
+				<div class="aboutMaster__place">Украина, Киев</div>
+			</div>
+
+			<div class="sidebar-container">
+				<p>В выбранной категории подбор по параметрам:</p>
+				<button class="clear-filters">Сбросить все параметры</button>
+			</div>
+	
+		</section>
+
+		<section id="catalog" class="catalog">
+			
+			<div class="filters">
+				<div lang="en" class="filters__header">
+					<div class="filters__header-image"></div>
+					<div class="filters__header-text">Выберите категорию:</div>
+					<div class="filters__header-image"></div>
+				</div>
+				
+			</div>
+		</section> 
+
+	</div> <!-- //end of mainbody -->
+
+	<div class="popup">
+		<div class="popup_wrapper"></div>
+		<div class="popup_content">
+			<div class="popup_image"></div>
+			<div class="popup_text">
+				<div class="popup_name"></div>
+				<div class="popup_price"></div>
+				<div class="popup_description"></div>
+				<div class="popup_form">
+					<form action="" class="popup_form">
+						<label for="" class="popup_label">Количество:</label>
+						<input type="text" class="popup_input-quantity" placeholder="1">
+						<input type="text" class="popup_input-submit" value="Добавить в корзину">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+<script src="scripts/index.js"></script>
+<script src="scripts/filters.js"></script>
+<script src="scripts/headerSearch.js"></script>
+<script src="scripts/popup.js"></script>
+
+<!-- <script src="js/langpack/nonDynamic.js" charset="utf-8" type="text/javascript"></script> -->
+
+</body>
+</html>

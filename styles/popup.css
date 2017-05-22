@@ -1,0 +1,80 @@
+@main-color: #c1a1f6;
+@darker-color: #8f54c6;
+@briht-color: #800cbd;
+@grey-color: #d4d4d4;
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: none;
+}
+
+.popup_wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('https://www.walldevil.com/wallpapers/a80/abstract-wallpapers-color-purple-wallpaperskd-kingdom.jpg');
+	z-index: 1;
+}
+
+.popup_content {
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+    max-height: 400px;
+    background: #fff;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+}
+
+.popup_image {
+	height: auto;
+	width: 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 20px;
+
+}
+.popup_name {
+	font-style: bold;
+	font-size: 30px;
+	padding: 10px;
+} 
+
+.popup_price {
+	font-size: 25px;
+	padding: 10px;
+}
+
+.popup_description {
+	font-style: italic;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.popup_input-submit {
+	cursor: pointer;
+	background: #c1a1f6;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+	transition-property: background;
+	transition-duration: 3s;
+	text-decoration: none;
+	color: white;
+}
+
+
